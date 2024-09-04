@@ -4,6 +4,8 @@ Esta es una implementación del Problema/Acertijo de Einstein resuelto con un Al
 # Enunciado del problema
 Tenemos 5 casas de cinco colores diferentes y en cada una de ellas vive una persona de una nacionalidad diferente.
 
+Por el momento no encuentra la solución optima, solo alcanza máximos de hasta 100 puntos de 111.
+
 Cada uno de los dueños bebe una bebida diferente, fuma una marca de cigarrillos diferente y tiene una mascota diferente.
 
 Considerando las siguientes claves:
@@ -31,6 +33,8 @@ Y la pregunta: ¿Quién es el dueño del pececito?
 
 # Instrucciones de ejecución
 ```zsh
+pip install deap
+pip install plotly
 python -m venv venv
 
 python main.py
